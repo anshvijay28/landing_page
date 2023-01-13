@@ -2,11 +2,22 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.header {
+.webpage {
+    display: flex;
+    flex-direction: column;
+}
+
+.webpage .empty-space-background {
+    flex: 1; 
+    background-color: #1f2937;
+}
+
+.webpage .header {
     display: flex;
     flex-direction: row;
     background-color: #1f2937;
     gap: 10px; 
+    flex: 1;
 }
 
 .header .empty-space-edge {
@@ -42,5 +53,65 @@
 .header .links a:hover {text-decoration: none;}
 .header .links a:active {text-decoration: none;}
 
+.webpage .website-awesome {
+    display: flex;
+    flex-direction: row;
+    background-color: #1f2937;
+    gap: 10px;
+    flex: 3;
+}
 
+.website-awesome .text-info {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    gap: 10px;
+}
+
+.website-awesome .text-info .awesome-text {
+    font-size: 48px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.website-awesome .text-info .description-text {
+    color: #E5E7EB;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.website-awesome .text-info .button-container .sign-up-button {
+    color: #F9FAF8;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #1f2937;
+    flex: 1;
+    border-radius: 8px;
+    background-color: #3882F6;
+    border: none;
+    min-width: 110px;
+    height: 30px;
+}
+
+.website-awesome .text-info .button-container .empty-space {
+    flex: 3;
+}
+
+.website-awesome .image-placeholder {
+    flex: 3;
+}
+
+.website-awesome .image-placeholder > img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.website-awesome .empty-space-edge {
+    flex: 1;
+}
 
