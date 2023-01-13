@@ -1,0 +1,46 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #1f2937;
+    gap: 10px; 
+}
+
+.header .empty-space-edge {
+    flex: 1;
+}
+
+.header .header-logo {
+    margin-right: auto; 
+    flex: 1;
+    color: #F9FAF8;
+    font-weight: 500;
+    font-size: 24px;
+
+}
+
+.header .empty-space {
+    flex: 3;
+}
+
+.header .links {
+    display: flex;
+    flex-direction: row;
+    flex: 3;
+    gap: 20px;
+}
+.header .links .header-link {
+    color: #E5E7EB;
+    font-weight: 100;
+    font-size: 18px;
+}
+.header .links a:link {text-decoration: none;}
+.header .links a:visited {text-decoration: none;}
+.header .links a:hover {text-decoration: none;}
+.header .links a:active {text-decoration: none;}
+
+
+
