@@ -245,6 +245,15 @@ body {
     flex: 1;
 }
 
+.Copyright-banner {
+    background-color: #1f2937;
+    padding: 30px;
+    text-align: center;
+    color: #E5E7EB;
+    font-weight: 100;
+    font-size: 12px;
+}
+
 
 
 
